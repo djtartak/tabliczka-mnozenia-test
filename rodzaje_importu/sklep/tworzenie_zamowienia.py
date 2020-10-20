@@ -19,5 +19,5 @@ def stwoz_zamowienie(produkt, ilosc):
     return nowe_zamowienie
 
 
-stwoz_zamowienie(produkt, ilosc)
-print(zamowienia)
+#stwoz_zamowienie(produkt, ilosc)
+#print(zamowienia)

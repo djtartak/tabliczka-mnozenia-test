@@ -3,7 +3,7 @@ produkty = {
         "quantity": 50,
         "price": 3,
     },
-    "maslo": {
+    "masło": {
         "quantity": 5,
         "price": 6,
     }
