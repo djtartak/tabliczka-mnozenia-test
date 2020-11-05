@@ -1,4 +1,4 @@
-from sklep.magazyn import produkty
+from .magazyn import produkty
 
 zamowienia = []
 
