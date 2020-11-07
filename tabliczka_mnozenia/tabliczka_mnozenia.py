@@ -1,4 +1,3 @@
-import math
 import random
 
 x=0
@@ -41,7 +40,10 @@ while kontynuuj == "t":
             else:
                 print ('gratulacje, poprawna odpowiedź, zdobywasz punkt')
                 punkty += 1
-        print('twoj aktualny wynik = ', punkty, 'jeszcze', 10 - punkty, 'poprawnych odpowiedzi i wygrasz')
+
+        if punkty < 10:
+            print('twoj aktualny wynik = ',punkty)
+            print('jeszcze', 10 - punkty, 'poprawnych odpowiedzi i wygrasz...')
        # kontynuuj = input('chcesz kontynuować t/n?')
 
     print ('brawo  ! zdobyłeś 10 punktów !')
